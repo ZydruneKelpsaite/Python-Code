@@ -3,26 +3,25 @@
 ### Certificate:
 [View Certificate](https://www.sololearn.com/certificates/CT-FSG7QYSU)
 
-Practice
-1.
+## Practice
+### 1.
 Letter Frequency: program to analyze text.
 Take the text as the first input and a letter as the second input, and output the frequency of that letter in the text as a whole percentage.
 
-Sample Input:
+**Sample Input:**
 hello
 l
 
-Sample Output:
+**Sample Output:**
 40
 
-CODE:
+**CODE:**
 text = input() 
 let = input() 
 a = text.count(let) 
 print(int((a/len(text))*100))
 
-2.
-Average Word Length
+### 2. Average Word Length
 Given a sentence as input, calculate and output the average word length of that sentence.
 To calculate the average word length, you need to divide the sum of all word lengths by the number of words in the sentence.
 
@@ -42,9 +41,8 @@ for w in s:
 	u = len(w) + u 
 print(u/a)
 
-3.
+### 3. Ticket Office
 
-Ticket Office
 You are analyzing sales data from a ticket office.
 The ticket for an adult is $20, while the ticket for a child under 18 is $5.
 The data you are given is in a dictionary format, where the keys are the sold ticket numbers, and the values are the customer ages.
@@ -80,7 +78,7 @@ discount = int(100*((sum-orgsum)/orgsum))
 print(discount)
 
 
-4. Balanced Parentheses
+### 4. Balanced Parentheses
 Parentheses are balanced, if all opening parentheses have their corresponding closing parentheses.
 
 Given an expression as input, we need to find out whether the parentheses are balanced or not.
